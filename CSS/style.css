@@ -116,12 +116,12 @@ main{
     grid-template-columns: repeat(4, 1fr);
 }
 
-.Producto-Imagen{
+.producto-imagen{
     max-width: 100%;
     border-radius: 1rem;
 }
 
-.Productos-Detalles{
+.producto-detalles{
     background-color: var(--clr-main);
     color: var(--clr-white);
     padding: .5rem;
@@ -134,11 +134,11 @@ main{
     margin: 5px;
 }
 
-.Producto-Titulo{
+.producto-titulo{
     font-size: 1rem;
 }
 
-.Producto-Agregar{
+.producto-agregar{
     border: 0;
     background-color: var(--clr-white);
     color: var(--clr-main);
@@ -150,7 +150,7 @@ main{
     transition: background-color .2s, color .2s;
 }
 
-.Producto-Agregar:hover{
+.producto-agregar:hover{
     background-color: var(--clr-main);
     color: var(--clr-white);
 
